@@ -1,10 +1,17 @@
 # apisix-book
 Apache APISIX最佳实践
 
-## 目录结构
+## 维护者介绍
 
-### 如何使用APISIX
+yousa，Apache APISIX PPMC
 
-### APISIX核心剖析
+## 编写计划
 
-### 前置知识
+- 开箱即用--Apache APISIX 公有云高可用架构
+- FAQ
+
+## 交流群
+
+欢迎加入Apache APISIX群一起交流
+
+- 503666917
