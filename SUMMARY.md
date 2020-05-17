@@ -9,6 +9,7 @@
 * [架构篇](architect/main.md)
     * [开箱即用--Apache APISIX 公有云高可用架构](architect/qcloud.md)
     * [高可用架构常见场景](architect/common.md)
+    * [awesome-ingress](architect/ingress.md)
 * [原理篇](apisix/main.md)
     * [动态路由](apisix/route.md)
     * [路由匹配](apisix/match.md)
