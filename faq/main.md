@@ -106,3 +106,37 @@ curl http://127.0.0.1:9080/apisix/admin/plugins/reload -H 'X-API-KEY: edd1c9f034
 ```shell
 apisix reload
 ```
+
+## 项目中 doc/apisix-plugin-design.graffle 文件是什么文件？
+
+它是一个绘图工具， APISIX 开源项目中的很多图都是使用它绘制的，为了图方便就直接放在github上了。
+
+## Apache APISIX 单元测试是使用的什么工具？
+
+test-nginx
+
+## 用 RPM 包方式安装 APISIX 会同时安装 Dashboard 吗
+
+rpm包安装的apisix自动会有dashboard；另一方面1.2版本之后，apisix核心和dashboard是一起发版本的。所以从luarocks和rpm途径安装的apisix是有dashboard
+
+## apisix 命令作用
+
+- `make deps` 是安装lua库相关的依赖
+- `make install` 会被废弃掉，你可以忽略它
+
+## 怎么用 Apache APISIX 实现 http 到 https 的跳转
+
+我写了文档和测试案例给大家参考下：https://github.com/apache/incubator-apisix/pull/1595
+
+## apisix start的单例模式
+
+## allow admin的问题这个很多人提到了，我今天看下
+
+## apisix route匹配机制，多条路由规则，有优先顺序吗？
+
+完全匹配 > 前缀匹配（深度优先）> 优先级（深度一样时）
+
+## 如何升级apisix版本？
+
+如何通过rpm包升级apisix
+如何通过luarocks升级apisix
