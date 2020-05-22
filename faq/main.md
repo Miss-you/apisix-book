@@ -138,5 +138,7 @@ rpm包安装的apisix自动会有dashboard；另一方面1.2版本之后，apisi
 
 ## 如何升级apisix版本？
 
-如何通过rpm包升级apisix
-如何通过luarocks升级apisix
+- 如何通过rpm包升级apisix?(TODO)
+- 如何通过luarocks升级apisix?(TODO)
+
+## 
