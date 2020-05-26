@@ -6,6 +6,7 @@
     * [参考文档](lua/ref.md)
 * [Openresty/Nginx 入门](nginx/main.md)
 * [使用篇](manuel/main.md)
+    * [路由配置](manuel/route.md)
 * [架构篇](architect/main.md)
     * [开箱即用--Apache APISIX 公有云高可用架构](architect/qcloud.md)
     * [高可用架构常见场景](architect/common.md)
