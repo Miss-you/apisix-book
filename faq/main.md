@@ -141,4 +141,8 @@ rpm包安装的apisix自动会有dashboard；另一方面1.2版本之后，apisi
 - 如何通过rpm包升级apisix?(TODO)
 - 如何通过luarocks升级apisix?(TODO)
 
-## 
+## Apache APISIX 的 master 分支可以编译通过吗?
+
+master 分支一直都有 CI 构建看护的，构建失败的代码是无法合入master分支的，所以 master 分支的代码是可以编译通过。
+
+如果可能是因为环境差异导致的编译构建失败，欢迎提 issue 反馈，希望你能够详细描述构建环境信息以及构建步骤方便定位
