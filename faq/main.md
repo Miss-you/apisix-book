@@ -139,7 +139,17 @@ rpm包安装的apisix自动会有dashboard；另一方面1.2版本之后，apisi
 ## 如何升级apisix版本？
 
 - 如何通过rpm包升级apisix?(TODO)
+卸载旧版本rpm包，安装新版本包
+
+```shell
+## 卸载
+rpm -e xxx.rpm
+## 安装
+rpm -ivh xxx.rpm
+```
+
 - 如何通过luarocks升级apisix?(TODO)
+luarocks install apisix
 
 ## Apache APISIX 的 master 分支可以编译通过吗?
 
