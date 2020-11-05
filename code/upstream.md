@@ -3,5 +3,6 @@
 
 ---
 ## 这篇文章主要为大家讲解Apisix是如何获取upstream等信息的。
-在讲核心代码之前，我们还是从源头开始，也就是在_M.http_init_worker(init.lua)阶段对upstream的初始化工作，
+在讲fetch_upstream核心代码之前，我们先从源头开始，也就是在_M.http_init_worker(init.lua)阶段对upstream的初始化工作做一个简单的了解:
 
+![image](https://raw.githubusercontent.com/rockXiaofeng/apisix-book/upstream_learning/code/images/upstream.png)
