@@ -19,9 +19,7 @@ Table of Contents
 
 # APISIX upstream
 
-## 何为upstream
-
-  我们先了解两个基本概念:
+## 相关概念
 
 - Downstream（下游）: 下游主机连接到apisix，发送请求并接收响应，即发送请求的主机。
 
