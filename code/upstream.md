@@ -33,7 +33,7 @@ Table of Contents
 
 Upstream 是虚拟主机抽象，对给定的多个服务节点按照配置规则进行负载均衡。Upstream 的地址信息可以直接配置到 `Route`（或 `Service`) 上，当 Upstream 有重复时，就需要用“引用”方式避免重复了。
 
-![image](https://raw.githubusercontent.com/rockXiaofeng/apisix-book/upstream_learning/code/images/upstream-example.png)
+![image](https://raw.githubusercontent.com/rockXiaofeng/apisix-book/upstream_learning/code/images/upstream_example.png)
 
 如上图所示，通过创建 Upstream 对象，在 `Route` 用 ID 方式引用，就可以确保只维护一个对象的值了。
 
